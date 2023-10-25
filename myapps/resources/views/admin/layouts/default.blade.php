@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head>    @yield('header')</head><body><div class="wrapper">    @yield('navbar')    @yield('sidebar')    @yield('content')    @yield('footer')</div></body></html>

@@ -1,0 +1,1 @@
+<!doctype html><html>    <head>        @yield('header')    </head>    <body>        @yield('content')        @yield('footer')    </body></html>

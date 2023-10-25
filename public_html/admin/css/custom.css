@@ -1,0 +1,200 @@
+a {
+    color: #0071bd
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.bg-blue {
+    background-color: #6d96c2;
+    color: #fff;
+}
+
+a.bg-blue:hover,
+input.bg-blue:hover {
+    background-color: #5f7489;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.error {
+    color: red;
+    clear: both;
+}
+
+.success {
+    color: green
+}
+
+.topnavbar {
+    background: #6d96c2;
+}
+
+.topnavbar .navbar-header {
+    background: white
+}
+
+.topnavbar .navbar-header .brand-logo > img,
+.topnavbar .navbar-header .brand-logo-collapsed > img {
+    height: 55px
+}
+
+.topnavbar .navbar-nav > li > a,
+.topnavbar .navbar-nav > .open > a {
+    color: white
+}
+
+.logout {
+    background: #003a5e;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.logout:hover {
+    background: #000 !important;
+}
+
+.sidebar .nav-heading {
+    color: black;
+}
+
+.sidebar > .nav > li > a:focus,
+.sidebar > .nav > li > .nav-item:focus,
+.sidebar > .nav > li > a:hover,
+.sidebar > .nav > li > .nav-item:hover {
+    color: #0071bd
+}
+
+.sidebar > .nav > li.active {
+    border-left-color: #0071bd;
+}
+
+.sidebar > .nav > li.active,
+.sidebar > .nav > li.open,
+.sidebar > .nav > li.active > a,
+.sidebar > .nav > li.open > a,
+.sidebar > .nav > li.active .nav,
+.sidebar > .nav > li.open .nav {
+    background-color: #fcfcfc;
+    color: #0071bd;
+}
+
+.sidebar > .nav > li.active > a > em,
+.sidebar > .nav > li.open > a > em {
+    color: #0071bd;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #0071bd;
+    border-color: #0071bd;
+}
+
+.note-editor {
+    background-image: none;
+    border-left: 1px solid #a9a9a9;
+    border-right: 1px solid #a9a9a9;
+}
+
+.note-editor .note-toolbar {
+    border-top: 1px solid #a9a9a9;
+    border-left: 1px solid #a9a9a9;
+}
+
+.note-fontname {
+    display: none
+}
+
+.toggle {
+    cursor: pointer;
+}
+
+.toggle:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Star Ratings ---------- */
+.rating {
+    border: none;
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.rating > input {
+    display: none;
+}
+
+.rating > label:before {
+    margin: 5px 4px;
+    font-size: 18px;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating > .half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.rating > label {
+    color: #ddd;
+    float: right;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #0071bd;
+}
+
+/* hover previous stars in list */
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+    color: #9ec7e5;
+}
+
+/* ------------------------------ */
+
+@media only screen and (min-width: 768px) {
+    .topnavbar .navbar-nav > li > a:hover,
+    .topnavbar .navbar-nav > .open > a:hover,
+    .topnavbar .navbar-nav > li > a:focus,
+    .topnavbar .navbar-nav > .open > a:focus {
+        color: white;
+    }
+}
+
+table p {
+    margin-bottom: 0
+}
